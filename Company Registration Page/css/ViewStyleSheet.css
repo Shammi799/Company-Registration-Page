@@ -1,0 +1,93 @@
+﻿
+/* Custom Styles for GridView and Page */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-form-header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+}
+
+.my-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.mGrid {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+    .mGrid th, .mGrid td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+
+    .mGrid th {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .mGrid tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .mGrid tr:hover {
+        background-color: #e9ecef;
+    }
+
+    .mGrid a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .mGrid a:hover {
+            text-decoration: underline;
+        }
+
+    .mGrid .btnDownload {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        cursor: pointer;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+        .mGrid .btnDownload:hover {
+            background-color: #218838;
+        }
+
+@media (max-width: 768px) {
+    .mGrid th, .mGrid td {
+        font-size: 14px;
+    }
+
+    .my-container {
+        padding: 15px;
+    }
+
+    .my-form-header {
+        font-size: 20px;
+    }
+}
